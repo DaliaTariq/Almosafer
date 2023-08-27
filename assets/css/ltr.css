@@ -100,6 +100,13 @@ body{
         margin-right: 0;
         margin-left: 0;
     }
+    .navbar .form-inline{
+    margin-right: 0;
+    margin-left: -20px !important;
+    }
+    .hero-section.hero-index .hero-content{
+        top:36%;
+    }
 }
 
 
@@ -127,7 +134,10 @@ body{
     .hero-section .hero-content {
         right: 15%;
     }
-    
+    .navbar .form-inline{
+        margin-right: 0;
+        margin-left: -20px !important;
+        }
 }
 
 

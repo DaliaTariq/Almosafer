@@ -81,7 +81,7 @@
     /**********************Navbar*************************/
     .navbar-collapse{
         background:rgba(0, 0, 0, 0.95);
-        padding-bottom: 30px;
+        padding-bottom: 5px;
         width: 100%;
     position: absolute;
     right: 0;
@@ -398,7 +398,19 @@
 .contact .contact-data ul.account-links li a{
     font-size: 11px;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #41958C;
+}
+.navbar .form-inline {
+    position: relative;
+    margin-right: 24px;
+    margin-top: 0 !important;
+}
+.about-us .about-us-conten {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+}
 }
 
 /**********************************************ibad********************************/
@@ -409,7 +421,7 @@
      /**********************Navbar*************************/
      .navbar-collapse{
         background:rgba(0, 0, 0, 0.95);
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         width: 100%;
         position: absolute;
         width: 100%;
@@ -488,10 +500,10 @@
 }
 
 .Real-estate .item{
-    height: 360px;
+    height: 270px;
 }
 .Real-estate .owl-img{
-    height: 200px;
+    height: 150px;
 }
 .o-video{
     height: 470px;
@@ -680,6 +692,11 @@
 }
 .selected-car .carousel-caption {
     bottom: 75px;
+}
+.navbar .form-inline {
+    position: relative;
+    margin-right: 24px;
+    margin-top: 0 !important;
 }
 }
 
