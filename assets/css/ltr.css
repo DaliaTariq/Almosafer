@@ -66,7 +66,7 @@ body{
 
 .carDetails .car-evaluation .evalution-stars{
     margin-right: 0;
-    margin-left: 90px;
+    margin-left: 57px;
 }
 .hero-section .hero-content{
     right: 20%;
@@ -128,4 +128,12 @@ body{
         right: 15%;
     }
     
+}
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right:20px;
+        padding-left: 20px !important;
+    }
 }
