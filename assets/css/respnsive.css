@@ -411,6 +411,12 @@
     padding-bottom: 20px;
     color: #333;
 }
+.Real-estate#projects .owl-img {
+    height: 209px;
+}
+.Real-estate#projects .item {
+    height: 335px;
+}
 }
 
 /**********************************************ibad********************************/
@@ -498,9 +504,11 @@
     padding: 13px 5px;
     font-size: 10px;
 }
-
+.Real-estate#Real-estate .item{
+    height: 330px;
+}
 .Real-estate .item{
-    height: 270px;
+    height: 280px;
 }
 .Real-estate .owl-img{
     height: 150px;
@@ -682,10 +690,13 @@
     font-size: 14px;
 }
 .Real-estate.cars-model .owl-img {
-    height: 200px;
+    height: 130px;
 }
 .Real-estate.cars-model .item {
-    height: 360px;
+    height: 250px;
+}
+.Real-estate .owl-theme .owl-dots {
+    margin-top: 0px;
 }
 .selected-car.hero-section .carousel-item{
     height: 250px;
@@ -697,6 +708,12 @@
     position: relative;
     margin-right: 24px;
     margin-top: 0 !important;
+}
+.Real-estate#projects .owl-img {
+    height: 209px;
+}
+.Real-estate#projects .item {
+    height: 335px;
 }
 }
 
@@ -738,10 +755,12 @@
         width: 60%;
         right: 20%;
     }
+   
 }
 
 /************************LARG SECREEN***************************************************/
 @media(min-width: 1400px) {
+    
 }
 
 @media(min-width: 1600px) {}
