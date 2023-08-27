@@ -1,0 +1,1251 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background: #fff;
+    overflow-x: hidden;
+  position: relative;
+}
+a:hover{
+    text-decoration: none;
+}
+.section{
+    margin-bottom: 95px;
+  /*  text-align: center;*/
+}
+.section-title{
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 50px;
+}
+ul li{
+    list-style: none;
+}
+/**********************Navbar Strat******************************/
+.navbar{
+  /* height: 120px; */
+  height: 80px;
+   /*margin-top: 30px;*/
+  /* position: absolute;
+   top: 30px;
+   right: 0;
+   left: 0;*/
+   width: 100%;
+   z-index: 100;
+}
+.scrollNav {
+    top: 0 !important;
+    z-index: 999999;
+    min-height: 58px;
+    box-shadow: rgb(0 0 0 / 3%) 0px 3px 6px 3px;
+    animation-duration: 1s;
+    background: rgb(255, 255, 255) !important;
+    position: fixed;
+}
+.navbar.bg-light {
+    background-color: #41958C!important;
+}
+.navbar .navbar-brand{
+ /*   width: 152.54px;
+    height: 80.77px;*/
+    width: 90px;
+    height: 70px;
+}
+.navbar .navbar-brand img{
+    width: 100%;
+    height: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #333;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #333;
+}
+
+.navbar .nav-link.dropdown-toggle{
+    color: #fff;
+}
+.navbar .dropdown-menu.show{
+    text-align: right;
+}
+.navbar .form-inline{
+    position: relative;
+}
+.navbar .dropdown-menu{
+    left: unset;
+}
+/******************Search buttun********************/
+
+  .round-btn{
+    /*height:;
+    width: 28px;
+    background-color:#fff;*/
+    border-radius: 34px;
+    text-align: center;
+    line-height: 28px;
+    color:#41958C;
+    margin: 0 auto;
+ 
+  }
+  .round-btn i{
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background:#fff;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto
+  }
+ .serch{
+      color: #fff;
+  }
+ 
+  .hidden-search-box{
+    display: none;
+    position:fixed;
+    background-color: #fff;
+    height: 40px;
+    width: 20%;
+    z-index: 1000;
+    top: 110px;
+  
+  }
+  .addon-btn{
+    width: 50px;
+    height:40px;
+    background-color: #333;
+    border: 0 none;
+    color: #ffffff;
+  }
+  .addon-text-box, addon-text-box:active{
+    background-color: transparent!important;
+    border: 0 none;
+    color:  #ffffff!important;
+    border-radius: 0;
+    border-bottom: 1px #FFF solid;
+ 
+   
+  }
+  .nav-item.your-data{
+      display: block;
+      margin-right: 50px;
+      text-align: center;
+  }
+
+  
+/**********************Navbar End********************************/
+/**********************hero-section Start*************************/
+.hero-section{
+ /*   height:688px;*/
+    position: relative;
+   z-index: 5;
+}
+.hero-section .carousel{
+    z-index: 15;
+}
+.hero-section .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.70);
+    z-index: 10;
+}
+
+.hero-section .carousel-item{
+    height: 100%;
+    height: 600px;
+}
+
+
+.hero-section .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.hero-section .hero-content{
+    width: 45%;
+    position: absolute;
+    top:60%;
+    right: 15%;
+    color: #fff;
+    text-align: right;
+}
+/***************************************************/
+.hero-section.cars-hero{
+    position: relative;
+}
+.hero-section.cars-hero .overlay-cars{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.50);
+    z-index: 1000;
+    
+}
+.hero-section.cars-hero .hero-content{
+z-index: 10000;
+}
+/*******************************************/
+.hero-section .hero-content.displyingCars{
+    top:26%;
+}
+.hero-section .hero-content.realEstate{
+    top:23%
+}
+.hero-section .hero-content p{
+    font-size: 14px;
+    text-align: right;
+}
+.hero-section .hero-content h1{
+    font-size: 24px;
+    line-height: 75px;
+   
+}
+.hero-section .hero-content .order{
+    display: inline-block;
+    background:#41958C;
+    color: #fff;
+     padding: 15px 0;
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+.hero-section .hero-content .order:hover{
+   transform: scale(1.05);
+   transition: all 0.4s ease; 
+}
+/**********************hero-section End***************************/
+/**********************Services Start*****************************/
+.Services{
+   text-align: center;
+}
+.Services .single-col{
+    height: 305px;
+    background: #FAFAFA;
+    padding:60px 30px 30px;
+}
+.Services .single-col .our-serv{
+    display: block;
+}
+.Services .single-col .icon{
+    /*color:#41958C;*/
+    padding-bottom: 25px;
+}
+/*.Services .single-col .icon i{
+    font-size: 60px;
+}*/
+.Services .single-col .icon svg path{
+    fill: #41958C !important;
+}
+.Services .single-col .service-title{
+    color: #333;
+    font-size: 26px;
+}
+.Services .single-col p{
+    font-size: 16px;
+    color:#999999;
+    margin-top: 15px;
+    text-align: center;
+}
+.Services .single-col:hover{
+    background: #41958C;
+    color:#fff !important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Services .single-col:hover .service-title,
+.Services .single-col:hover p{
+    color:#fff;
+} 
+.Services .single-col:hover .icon svg path{
+    fill: #fff !important;
+}
+/**********************Services End*******************************/
+/**********************Real-estate  start*************************/
+.Real-estate{
+    text-align: center;
+}
+.Real-estate .item{
+    background: #F8F8F8;
+    height: 370px;
+    margin-bottom: 30px;
+}
+.Real-estate .owl-theme .owl-nav{
+    display: none;
+}
+.Real-estate .owl-theme .owl-dots .owl-dot.active span, .Real-estate .owl-theme .owl-dots .owl-dot:hover span{
+    background: #41958C;
+}
+.Real-estate .owl-theme .owl-dots{
+    margin-top: 40px;
+}
+.Real-estate .owl-img{
+    width: 100%;
+    height: 232px;
+    /*margin-bottom: 25px;*/
+    position: relative;
+}
+.Real-estate#Real-estate .owl-img{
+    height: 220px;
+}
+.Real-estate.cars-mode .owl-img{
+    height: 232px;
+}
+.Real-estate.cars-model .item{
+    height: 370px;
+}
+.Real-estate.cars-model .owl-img{
+    height: 220px;
+}
+.Real-estate.cars-model .owl-img .overlay-image{
+    line-height: 220px;
+}
+.Real-estate#projects .item{
+    height: 475px;
+}
+.Real-estate#projects .owl-img{
+    height: 335px;
+}
+/**************************************************/
+.Real-estate .owl-img .overlay-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.34);
+    text-align: center;
+    line-height: 230px;
+    display: none;
+}
+.Real-estate .owl-img .overlay-image a{
+    display: block;
+}
+.Real-estate .owl-img .overlay-image i{
+    display: inline-block;
+    color:#333;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.Real-estate .item:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: #fff;
+    transition: all 0.4s ease; 
+    
+}
+.Real-estate .item:hover .overlay-image{
+    display: block;
+}
+.Real-estate .item .order-now{
+    display: block;
+    color:#fff;
+    background: #41958C;
+    text-align: center;
+    /*margin-top: 20px;*/
+    padding:8px 0;
+    margin-top: 15px;
+    display: none;
+}
+.Real-estate .item:hover .order-now{
+    display: block;
+}
+/**************************************************/
+.Real-estate .owl-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Real-estate .owl-title{
+    font-size: 18px;
+    color:#333333;
+}
+.Real-estate .taggs{
+    margin-top: 15px;
+}
+.Real-estate .taggs span{
+    display: inline-block;
+}
+.Real-estate .item-content{
+  padding-top: 15px;
+}
+.Real-estate .item-content .taggs span{
+    display: inline-block;
+    background: #fff;
+    color:#AAAAAA;
+    padding:13px 10px;
+    font-size: 13px;
+}
+.Real-estate .item:hover .taggs span{
+    background: #F4F4F4;
+    color:#aaa;
+}
+/**********************Real-estate End****************************/
+/*********************About us Start******************************/
+.about-us{
+    background: #F8F8F8;
+}
+/*****/
+.o-video {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding-top: 56.25%; /* 9 / 16 * 100 */
+  }
+  .o-video > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+  }
+ .about-us .about-us-conten{
+     padding-top: 100px;
+     color:#333;
+ }
+ .about-us .about-us-conten .more{
+     
+     font-size: 18px;
+     display: block;
+     padding-bottom: 15px;
+     color:#777777;
+ }
+ .about-us .about-us-conten .more:hover{
+     color: #41958C;
+ }
+ .about-us .about-us-conten h2{
+     font-size: 30px;
+     padding-bottom: 15px;
+ }
+ .about-us .about-us-conten p{
+     font-size: 16px;
+     line-height: 1.5;
+     text-align: justify;
+  text-justify: inter-word;
+ }
+ .about-us .about-us-conten .green-class{
+     display:block;
+     float:left;
+     width: 152.54px;
+     height: 80.77px;
+ }
+  
+/*********************About us end******************************/
+/***********************contact Start****************************/
+.contact{
+    background: #333333;
+    opacity: 0.93;
+    padding-top: 150px;
+    padding-bottom: 150px;
+   
+}
+.contact .col-form{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.contact .col-form .form-header{
+    background: #383838;
+    padding: 25px;
+}
+.contact .col-form .form-header h2{
+    color: #41958C;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.contact .col-form .form-header  p{
+    color: #fff;
+    font-size: 13px;
+}
+.contact .col-form .contact-form .bg-gray{
+    background: #222222;
+    padding:20px 40px;
+    color: #fff;
+}
+.contact .col-form .contact-form .form-control{
+    background: #fff;
+    color:#777777;
+    border:none !important;
+    font-size: 0.7rem !important;
+}
+.contact .col-form .contact-form  label{
+    font-size: 0.8rem;
+    font-weight: 400 !important;
+    margin-bottom: 1rem !important;
+}
+.contact .col-form .contact-form textarea{
+    height: 130px;
+    
+}
+.contact .col-form .contact-form .bg-whitee{
+    width: 100%;
+    text-align: center;
+    padding:15px 40px;
+    background: none;
+    }
+    .contact .col-form .contact-form .bg-whitee button{
+        background: #41958C !important;
+        color:#fff;
+        display: inline-block;
+        width: 175px;
+        height: 50px;
+        text-align: center;
+        line-height: 40px;
+        border:none !important;
+        border-radius: 5px;
+    }
+    .contact .col-form .contact-form .bg-whitee button:hover{
+        transform: scale(1.05);
+        transition: all 0.4s ease;  
+    }
+    .contact .phone-num i{
+        color: #fff;
+    }
+    .contact .phone-num span{
+        color:#fff;
+        font-size: 14px;
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .contact .phone-num p{
+        color:#41958C;
+        font-size: 24px;
+    }
+    .contact .contact-data{
+        margin-top: 40px;
+        padding-bottom: 90px;
+        border-bottom: 1px solid #aaa;
+    }
+    .contact .contact-data h4{
+        color:#fff;
+        font-size: 18px;
+    }
+    .contact .contact-data ul.account-links{
+        padding-right: 0 !important;
+    }
+    .contact .contact-data ul.account-links li{
+        margin-bottom: 10px;
+       
+    }
+    .contact .contact-data ul.account-links li a{
+        color: #eee;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .contact .contact-data ul.account-links li i{
+        font-size: 15px;
+        color:#41958C;
+    }
+    .contact .contact-map{
+        padding:40px 80px;
+    }
+    .contact .contact-map .mab{
+        height: 200px;
+        background-image: url(../img/map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        line-height: 180px;
+        text-align: center;
+    }
+    .contact .contact-map .mab i{
+        color:#41958C;
+        font-size: 25px;
+    }
+    .contact .contact-map .mab span{
+        color:#fff;
+        font-size: 15px;
+    }
+/***********************contact End****************************/
+/***********************footer Start***************************/
+.footer{
+    background: rgba(37, 37, 37, 0.9);
+    padding:20px 0;
+   /* position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;*/
+    color: #8E8E8E;
+}
+.footer .footer-img{
+    width: 118.02px;
+    height: 62.49px;
+}
+.footer .second{
+    text-align: left;
+    line-height: 60px;
+    font-size: 16px;
+}
+/***********************footer End***************************/
+/********************Back to top*****************************/
+#button {
+    display: inline-block;
+    background-color:#41958C;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    transition: background-color .3s,  opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    color: #fff !important;
+  }
+  #button svg path{
+    fill:#fff;
+  }
+ 
+  #button:hover {
+    cursor: pointer;
+    background-color: #aaa;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
+  .content h1 {
+    margin-bottom: -10px;
+    color: #41958C;
+    line-height: 1.5;
+  }
+  .content h3 {
+    font-style: italic;
+    color: #96a2a7;
+  }
+/******************************************Cars Page Start****************************************/
+.Services.our-cars .single-col:hover{
+    background: #FAFAFa;
+    box-shadow: none;
+}
+.Services.our-cars .single-col:hover .service-title{
+    color:#333;
+} 
+.Services.our-cars .single-col:hover p{
+    color: #999;
+}
+.Services.our-cars .single-col:hover .icon svg path{
+    fill: #41958C !important;
+}
+.Services.our-cars .single-col.active{
+    background: #41958C;
+    color:#fff !important;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 14%), 0 3px 6px rgb(0 0 0 / 19%);
+}
+.Services.our-cars .single-col.active:hover .icon svg path{
+  fill: #fff !important;
+}
+.Services.our-cars .single-col.active:hover .service-title{
+    color:#fff
+}
+.Services.our-cars .single-col.active p{
+    color: #fff;
+}
+.Services .single-col.active .service-title{
+    color: #fff;
+}
+.Services .single-col.active .icon svg path{
+    fill: #fff !important;
+}
+
+.Services.our-cars.our-cars{
+    margin-bottom: 200px;
+}
+.Real-estate.car .item:hover{
+    box-shadow: none;
+    background: #F8F8F8;
+}
+.Real-estate.car .item:hover .taggs span{
+    background: #fff;
+    color: #AAAAAA;
+}
+.cars-hero .hero-content h2{
+    font-size: 70px;
+    color: #fff;
+}
+.cars-hero .hero-content h2 span{
+    color: #41958C;
+}
+.cars-hero .hero-content .tags{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cars-hero .hero-content .tags span{
+    display: inline-block;
+    background: #F4F4F4;
+    color:#AAAAAA;
+    font-size: 12px;
+    text-align: center;
+    padding:10px 15px;
+}
+.car-search{
+    height: 340px;
+    background-image: url(../img/bg\ yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    position: relative;
+    margin-bottom: 80px;
+}
+.hero-section.section.cars-hero{
+    margin-bottom: 0;
+}
+.car-search .searh-form{
+    width: 55%;
+    margin: 0 auto;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    right: 23%;
+    top: -27%;
+    box-shadow: 0 0px 0px rgb(0 0 0 / 13%), 0 3px 2px rgb(0 0 0 / 11%);
+    z-index: 1000;
+    padding:50px;
+}
+.car-search .searh-form .search-form-title p{
+    font-size: 16px;
+    color:#333333;
+}
+.car-search .searh-form .search-form-title h4{
+    color:#333;
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.car-search .searh-form .form-control{
+    font-size: 0.8rem !important;
+}
+/*.car-search .searh-form .search-form-title h4::after{
+ content: '';
+ width: 40px;
+ height: 3px;
+ background:#41958C;
+ position: absolute;
+ top:75px;
+ right: 0;
+}*/
+.car-reservation .btn-primary{
+/*  text-align: left;*/
+  background: #41958C;
+  float: left;
+  display: block;
+  width:150px;
+  height: 45px;
+  text-align: center;
+  border:none !important
+}
+.car-reservation .form-control{
+    background:#FAFAFA;
+    border:none !important;
+    height: 50px;
+}
+.car-reservation .form-group label{
+    font-size:12px;
+}
+/******************************************Cars Page end******************************************/
+/******************************************Cars details start*************************************/
+.hero-section.selected-car.section,
+.carDetails.section{
+   /* height: 600px;*/
+   margin-bottom: 0;
+}
+.hero-section.selected-car .carousel-inner{
+    height: 100%;
+}
+.selected-car.hero-section .carousel-item{
+    height: 400px;
+}
+.selected-car .carousel-caption{
+    bottom: 125px;
+}
+.selected-car .carousel-caption h6{
+    color:#ccc ;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.selected-car .carousel-caption h6 a{
+    color: #fff;
+}
+.selected-car .carousel-caption h6 a:hover{
+    color:#41958C;
+}
+.carDetails{
+    background: #D4E2E1;
+    padding:85px 0 85px;
+    margin-bottom: 90px;
+}
+.carDetails .info{
+    margin-bottom: 25px;
+}
+.carDetails .info .name{
+    font-size: 32px;
+    color:#333333;
+}
+.carDetails .info .name p span{
+    color: #41958C;
+}
+.carDetails .info .price{
+    float: left;
+}
+.carDetails .info .price{
+    background: #41958C;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    color: #fff;
+    font-size: 30px;
+}
+.carDetails .info .price .currancy{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border-left: 1px solid #fff;
+}
+.carDetails .info .price .title{
+    display: inline-block;
+    padding-right: 15px;
+}
+/***********************************/
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .image-gallery {
+    margin: 0 auto;
+    display: table;
+  }
+  
+  .primary,
+  .thumbnails {
+    display: table-cell;
+  }
+  
+ /*
+  .thumbnails {
+   width: 300px;
+  
+  }
+ */
+  
+  .primary {
+    width: 570px;
+    height: 510px;
+    /*background-color: #cccccc;*/
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    /* margin-top: -21px; */
+    margin-bottom: 16px;
+  }
+  
+ /* .thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+    border: 4px solid red;
+  }*/
+
+  .thumbnail {
+    display: block;
+  width: 238px;
+  height: 160px;
+  margin-bottom: 15px;
+  margin-left: 15px; 
+  position: relative;
+
+}
+  
+  .thumbnail-image {
+    width: 100%;
+    height: 100%;
+    /*margin: 20px auto;*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 4px solid transparent;
+   
+   
+  }
+  .thumbnail .car-overlay{
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    right:8%;
+    top: 8%;
+    margin:0 auto;
+    background:rgba(65,149,140, .95);
+    z-index: 100;
+    text-align: center;
+    line-height: 136px;
+    display: none;
+}
+.thumbnail:hover .car-overlay{
+    display: block;
+}
+
+.image-gallery{
+    margin:0;
+    width: 100%;
+}
+.carDetails .car-reviwe{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    padding:0 17px;
+}
+.carDetails .car-reviwe .singlw-col{
+    border-left: 1px solid #DCFFFB;
+}
+.carDetails .car-reviwe .singlw-col.last{
+    border-left: 0;
+}
+.carDetails .car-reviwe .singlw-col .text{
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 16px;
+}
+.carDetails .car-evaluation{
+    padding-top: 60px;
+}
+.carDetails .car-evaluation h4{
+    font-size: 22px;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+
+}
+.carDetails .car-evaluation .car-explanition{
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 2;
+   
+}
+.carDetails .car-evaluation .evaluation-value{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #41958C;
+    background: #fff;
+    border-radius: 50%;
+}
+.carDetails .car-evaluation .evalution-type{
+    display: inline-block;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.carDetails .car-evaluation .evalution-stars{
+    display: block;
+    margin-right: 68px;
+    margin-top: -15px;
+}
+.another-car.Real-estate .owl-theme .owl-dots{
+    display: none;
+}
+.booking-form{
+    background: #fff;
+    padding-top: 20px;
+  /*  padding-right: 15px;
+    padding-left: 5px;*/
+    height: auto;
+}
+.booking-form h5{
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 50px;
+    padding-right: 10px
+}
+.booking-form h5::after{
+    content: '';
+    width: 46px;
+    height: 3px;
+    background: #41958C;
+    position: absolute;
+    right: 10px;
+    top:40px;
+}
+.booking-form .form-group{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.booking-form .form-group label{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.booking-form .form-group input,
+.booking-form .form-group select
+{
+    background: #F8F8F8;
+    height: 50px;
+    border:none;
+    border-radius: 0;
+    border-right: 3px solid #41958C;
+    text-align: right;
+}
+.booking-form .form-group input::placeholder,
+.booking-form .form-group select option{
+    font-size: 13px;
+}
+.booking-form .bg-green{
+    background: #41958C !important;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.booking-form button.btn-primary{
+   background: #fff !important;
+    border-radius: 0;
+    border:none;
+    color: #555;
+    width: 130px;
+    height: 40px;
+}
+.booking-form button.btn-primary:hover{
+    background: #555 !important;
+    color: #fff;
+}
+.Real-estate.car.section.another-car{
+    padding-top: 90px;
+}
+/*******************************Modal********************************/
+.thanksModal{
+    top: 65px; 
+    text-align: center; 
+}
+.thanksModal .modal-image{
+    width: 177px;
+   /* height: 400.81px;*/
+    margin:0 auto;
+}
+.thanksModal .modal-image img{
+    width: 100%;
+}
+.thanksModal h5{
+    font-size: 24px;
+    color:#41958C;
+}
+.thanksModal h6{
+    color: #333333;
+    font-size: 20px;
+}
+.thanksModal .contact-wats{
+    display: block;
+    margin-top: 35px;
+    font-size: 22px;
+    color: #333333;
+}
+.thanksModal .contact-wats:hover{
+    color:#41958C;
+}
+/****************************************************************/
+/*.carDetails.estateDetails .booking-form .form-group input{
+    height: 70px;
+}*/
+.carDetails.estateDetails .booking-form .bg-green{
+    /*margin-top: 37px*/
+    height: 90px;
+    line-height: 90px;
+}
+.project-data{
+    margin-top: 50px;
+}
+.estateDetails .project-brief,
+.estateDetails .Project-Details,
+.estateDetails .over-view-content h5{
+    color: #41958C;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.project-data table{
+    box-shadow: 0 14px -2px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.project-data tr th{
+    background-color: #41958C;
+    color: #fff !important;
+}
+.project-data tr td{
+    line-height: 55px;
+}
+.estateDetails p.explanation{
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 2;
+}
+.estateDetails .detailes li{
+    display: block;
+    line-height: 2;
+    font-size: 13px;
+}
+.estateDetails .detailes li i{
+    font-size: 15px;
+    color: #41958C;
+}
+.estateDetails .content.table-content{
+    width: 100% !important;
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+.estateDetails .over-view-content {
+    margin-top: 50px;
+    padding: 0px 15px 20px;
+    text-align: center;
+   
+   
+}
+.estateDetails .table-content table tr th{
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+    border-bottom: 1px solid #ccc;
+    color:#333;
+}
+.estateDetails .discount{
+    text-align: right;
+}
+.estateDetails .discount p{
+    font-size: 18px;
+}
+.estateDetails .discount p span{
+    font-size: 16px;
+    color:#41958C;
+}
+.estateDetails .detailes{
+    padding-right: 7px !important;
+}
+/************************************Media*****************************/
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left:40px !important;
+    }
+    
+}
+
+
+
+/********************************************************/
+.side-icon .icon{
+    display: block;
+      width: 35px;
+      height: 35px;
+      line-height: 33px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      left: 40px;
+      z-index: 1000;
+      color:#fff;
+      font-size: 20px;
+      box-shadow: -3px 3px 18px 1px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -3px 3px 18px 1px rgba(0,0,0,0.22);
+  -moz-box-shadow: -3px 3px 18px 1px rgba(0,0,0,0.22);
+  }
+  .icon i{
+    color:#fff;
+  }
+  .icon#wats{
+    background-color: #25D366;
+    bottom: 30px;
+    
+  }
+  .icon#snapchat{
+    background: 	#FFFC00 ;
+    bottom:155px;
+  
+  }
+  .icon#insta{
+    background: #C13584 ;
+    bottom:112px;
+   
+  }
+  .icon#youtube{
+    background: #FF0000;
+    bottom:72px;
+   
+  }
+  #buttonn.hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+
+  /************************************************/
+  .hero-section.hero-index .hero-content{
+    top: 170px;
+  }
+  .Real-estate.section.another-estate{
+      margin-top: 65px;
+  }
+  /*********************Map*****************************/
+  .responsive-map{
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: 40px;
+    }
+    .responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+  
+    .owl-theme .owl-dots .owl-dot{
+        display: none;
+    }

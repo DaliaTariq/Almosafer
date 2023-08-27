@@ -1,0 +1,730 @@
+/***********************************mobile*******************************/
+@media (min-width: 300px) and (max-width: 766.5px){
+    html{
+        overflow-x: hidden;
+    }
+    .navbar{
+        top:0;
+    }
+    .section{
+        margin-bottom: 45px;
+    }
+    /*.hero-section{
+        /*margin-top: 80px;
+      /*  height: 680px;
+    }*/
+    .hero-section .carousel-item{
+        height: 300px;
+    }
+    .hero-section.hero-index .hero-content{
+        top: 20%;
+        width: 80%;
+        right: 15%;
+    }
+    .hero-section .hero-content p {
+        font-size: 10px;
+    }
+    .hero-section .hero-content h1 {
+        font-size: 14px;
+     line-height: 15px; 
+    }
+    .hero-section .hero-content .order{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    section {
+        margin-bottom: 35px;
+    }
+    .section-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .Services .single-col .icon{
+        margin-bottom: 20px;
+    }
+    .Services .single-col .service-title{
+        font-size: 24px;
+    }
+    .Services .single-col{
+        padding: 30px;
+        margin-bottom: 20px;
+        height: 320px;
+    }
+    .Services .single-col p{
+        font-size: 18px;
+    }
+    .about-us .about-us-conten h2{
+        font-size: 28px;
+    }
+    .about-us .about-us-conten p {
+        font-size: 12px;
+    }
+    .contact {
+        padding-top: 60px;
+    }
+    .contact-form{
+        margin-bottom: 30px;
+    }
+    .contact .phone-num p{
+        font-size: 22px;
+    }
+    .contact .contact-data{
+        
+        padding-bottom: 30px;
+    }
+    .contact .contact-map {
+        padding: 16px 26px;
+    }
+    .contact .col-form .contact-form .bg-white button{
+        width: 120px;
+    }
+    /**********************Navbar*************************/
+    .navbar-collapse{
+        background:rgba(0, 0, 0, 0.95);
+        padding-bottom: 30px;
+        width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top:100%;
+ 
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #aaa;
+    }
+    .round-btn{
+        margin:0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        text-align: right;
+        background-color: transparent;
+        line-height: 0;
+    }
+    .round-btn i{
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background:#fff;
+        line-height: 28px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 10px
+    }
+    .nav-item.your-data{
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .hidden-search-box{
+        width: 60%;
+        top: 335px;
+}
+.addon-btn{
+    background-color: #aaa;
+}
+.contact{
+    padding-top: 60px;
+}
+.footer .footer-img {
+    width: 100px;
+}
+.footer .second{
+    font-size: 12px;
+}
+.footer{
+    padding:15px 0;
+}
+/***********************************Cars page Start*****************************/
+.car-search .searh-form{
+    width: 93%;
+    top: -15%;
+    right: 3%;
+    padding: 50px 20px;
+}
+.cars-hero .hero-content h2{
+    font-size: 35px
+}
+.cars-hero .hero-content .tags {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.cars-hero .hero-content .tags span{
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.cars-hero.hero-section .hero-content .order{
+    width: 115px;
+    height: 35px;
+}
+.car-reservation .btn-primary{
+    width: 100%;
+    height: 45px;
+}
+.car-search .searh-form{
+    height: 510px;
+}
+.car-search{
+    margin-bottom: 201px;
+}
+.our-cars .single-col{
+    padding: 38px 20px;
+    height: 343px;
+    margin-bottom: 20px;
+} 
+.Services.our-cars.our-cars{
+    margin-bottom: 50px;
+}
+.Real-estate .owl-img{
+    height: 215px;
+}
+.Real-estate .item-content {
+    padding-top: 15px;
+}
+.Real-estate .owl-title{
+    font-size: 22px;
+}
+.Real-estate .taggs {
+    margin-top: 20px;
+}
+.Real-estate .item-content .taggs span{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.Real-estate .item{
+    height: 360px;
+  /*  margin-bottom: 25px;*/
+
+}
+.car-search .searh-form .search-form-title h4{
+    font-size: 25px;
+}
+.Real-estate.section{
+    margin-bottom: 40px;
+}
+/***********************************Cars page End*******************************/
+/***************************Car details****************************************/
+.carDetails .info .price{
+    width: 85%;
+}
+.carDetails .info .price .currancy{
+    width: 35px;
+}
+.carDetails .info .price .title{
+    padding-right: 0px;
+    font-size: 26px;
+}
+.carDetails .info .name{
+    font-size: 22px;
+}
+.selected-car.hero-section .carousel-item{
+    height: 250px;
+}
+.selected-car .carousel-caption {
+    bottom: 100px;
+}
+.carDetails .info .price{
+    height: 40px;
+    line-height: 40px;
+}
+.carDetails .info {
+    margin-bottom: 20px;
+}
+.thumbnail{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    display: inline-block;
+}
+.primary, .thumbnails {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.thumbnail .car-overlay{
+    width: 85%;
+    height: 80%;
+    right: 8%;
+    top: 10%;
+    line-height: 65px;
+}
+.thumbnail .car-overlay svg{
+    width: 20px;
+    height: 20px;
+}
+.primary{
+    height: 315px;
+    margin-top: 15px;
+}
+.carDetails .car-reviwe{
+    height: 100px;
+    line-height: 60px;
+}
+.carDetails .car-reviwe .singlw-col .icon{
+    display: block;
+    height: 30%;
+}
+.carDetails .car-reviwe .singlw-col svg{
+    width:30px;
+    height: 25px;
+   /* height: 100%;*/
+    display: inline-block;
+}
+.carDetails .car-reviwe .singlw-col .text{
+    font-size: 12px;
+    display: block;
+    margin-top: -20px;
+    padding-right: 0;
+}
+.carDetails .car-evaluation {
+    padding-top: 50px;
+}
+.carDetails .car-evaluation .evaluation-value{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+}
+.carDetails .stars{
+    text-align: center;
+}
+.carDetails .car-evaluation .evalution-type{
+    padding-right: 0;
+    margin-top: 10px;
+    display: block;
+}
+.carDetails .car-evaluation .evalution-stars{
+    margin-right: 0;
+    margin-top: 0px;
+}
+.carDetails .car-evaluation h4{
+    margin-bottom: 32px;
+}
+.carDetails .car-evaluation .car-explanition {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.thanksModal{
+    top: 90px;
+}
+.booking-form .bg-green{
+    height: 100px;
+    line-height: 100px;
+}
+.booking-form button.btn-primary{
+    width: 223px;
+    height: 55px;
+}
+.thanksModal .modal-image{
+    width: 130px;
+}
+.thanksModal h5{
+    font-size: 22px;
+}
+.thanksModal h6{
+    font-size: 18px;
+}
+.thanksModal .contact-wats{
+    margin-top: 22px;
+    font-size: 19px;
+}
+
+/*************************************************************************/
+.carDetails.estateDetails  .info .price .title{
+    font-size: 21px;
+}
+.carDetails.estateDetails .info .price .currancy {
+    width: 18px;
+   
+}
+.estateDetails p.explanation{
+    font-size: 13px;
+}
+.estateDetails .project-brief, .estateDetails .Project-Details, .estateDetails .over-view-content h5{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.estateDetails .detailes li{
+    font-size: 12px;
+}
+.estateDetails .content.table-content{
+    width: 50%;
+    margin:10 auto
+}
+.estateDetails .responsive-map{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.hero-section.hero-index .hero-content.dalia{
+ top:60px;
+}
+.hero-section.hero-index .hero-content .order{
+    width: 110px;
+    height: 38px;
+}
+.hero-section .hero-content.realEstate, .hero-section .hero-content.displyingCars{
+    width: 100%;
+    top: 20%;
+}
+
+.cars-model .item{
+    margin-bottom: 20px;
+    height: 300px;
+}
+.Real-estate.cars-model .item-content .taggs span{
+    padding:5px;
+}
+.Real-estate.cars-model .owl-img{
+    height: 140px;
+}
+.side-icon .icon{
+    left: 12px;
+}
+.contact .col-form .contact-form .bg-gray{
+    padding: 20px 15px;
+}
+.estateDetails .table-content table tr th{
+    font-size: 10px;
+}
+.Real-estate.cars-model .owl-img {
+    height:215px;
+}
+.Real-estate.cars-model .item {
+    height: 320px;
+}
+.contact .contact-data ul.account-links li a{
+    font-size: 11px;
+}
+
+}
+
+/**********************************************ibad********************************/
+@media(min-width:768px) and (max-width:1024px){
+    html{
+        overflow-x: hidden;
+    }
+     /**********************Navbar*************************/
+     .navbar-collapse{
+        background:rgba(0, 0, 0, 0.95);
+        padding-bottom: 30px;
+        width: 100%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 100%;
+        padding-left: 30px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #aaa;
+    }
+    .round-btn{
+        margin:0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        text-align: right;
+        background-color: transparent;
+        line-height: 0;
+    }
+    .round-btn i{
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background:#fff;
+        line-height: 28px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 10px
+    }
+    .nav-item.your-data{
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+.addon-btn{
+    background-color: #aaa;
+}
+.hidden-search-box {
+    width: 49%;
+    top: 367px;
+}
+.hero-section .hero-content{
+    width: 70%;
+    top: 15%;
+    right: 10%;
+}
+.hero-section.hero-index .hero-content {
+    top: 174px;
+}
+.hero-section.hero-index .hero-content .order{
+    line-height: 40px;
+}
+.hero-section .hero-content p{
+    font-size: 14px;
+}
+.hero-section .hero-content h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+.hero-section .hero-content .order{
+    padding: 8px 20px;
+    font-size: 15px;
+}
+.section{
+    margin-bottom: 60px;
+}
+.Services .single-col{
+    background: #FAFAFA;
+    padding: 50px 30px;
+}
+.Real-estate .item-content .taggs span{
+    padding: 13px 5px;
+    font-size: 10px;
+}
+
+.Real-estate .item{
+    height: 360px;
+}
+.Real-estate .owl-img{
+    height: 200px;
+}
+.o-video{
+    height: 470px;
+}
+.about-us .about-us-conten h2{
+    font-size: 24px;
+}
+.about-us .about-us-conten p{
+    font-size: 12px;
+}
+.contact{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.contact .phone-num p{
+    font-size: 20px;
+}
+.contact .col-form .form-header{
+    padding:15px;
+}
+.contact .col-form .contact-form .bg-white button{
+    width: 120px;
+}
+.contact .contact-data {
+    margin-top: 20px;
+    padding-bottom: 30px;
+   
+}
+.contact .contact-map {
+    padding: 16px 14px;
+}
+.contact .col-form .contact-form .bg-gray{
+    padding: 20px 10px;
+}
+/**************************************************************/
+.cars-hero .hero-content h2{
+    font-size: 50px;
+}
+.cars-hero .hero-content .tags{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cars-hero.hero-section .hero-content .order{
+    width: 115px;
+    height: 35px;
+}
+.car-search .searh-form{
+    width: 90%;
+    top: -5%;
+    right: 5%;
+    padding: 50px 20px;
+}
+.car-search .searh-form .search-form-title h4{
+    font-size: 30px;
+}
+.car-reservation .btn-primary{
+    width: 185px;
+    height: 55px;
+}
+.our-cars .single-col{
+    padding: 38px 20px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+.Services.our-cars .single-col .service-title{
+    font-size: 30px;
+}
+.Services.our-cars .single-col p{
+    font-size: 18px;
+}
+.Services.our-cars.our-cars{
+    margin-bottom: 50px;
+}
+/************************************************************************************************/
+.selected-car .carousel-caption {
+    bottom: 0;
+}
+.thumbnail{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    display: inline-block;
+}
+.primary, .thumbnails {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.thumbnail .car-overlay{
+    width: 85%;
+    height: 80%;
+    right: 8%;
+    top: 10%;
+    line-height: 65px;
+}
+.thumbnail .car-overlay svg{
+    width: 20px;
+    height: 20px;
+}
+.primary{
+    height: 315px;
+    margin-top: 15px;
+}
+.carDetails .car-reviwe{
+    height: 100px;
+    line-height: 60px;
+}
+.carDetails .car-reviwe .singlw-col .icon{
+    display: block;
+    height: 30%;
+}
+.carDetails .car-reviwe .singlw-col svg{
+    width:30px;
+    height: 25px;
+   /* height: 100%;*/
+    display: inline-block;
+}
+.carDetails .car-reviwe .singlw-col .text{
+    font-size: 12px;
+    display: block;
+    margin-top: -20px;
+    padding-right: 0;
+}
+.carDetails .car-evaluation {
+    padding-top: 50px;
+}
+.carDetails .car-evaluation .evaluation-value{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+}
+.carDetails .stars{
+    text-align: center;
+}
+.carDetails .car-evaluation .evalution-type{
+    padding-right: 0;
+    margin-top: 10px;
+    display: block;
+}
+.carDetails .car-evaluation .evalution-stars{
+    margin-right: 0;
+    margin-top: 0px;
+}
+.carDetails .car-evaluation h4{
+    margin-bottom: 32px;
+}
+.carDetails .car-evaluation .car-explanition {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.booking-form h5{
+    margin-bottom: 46px;
+}
+.booking-form h5::after{
+    top: 45px;
+}
+.booking-form .form-group input{
+    height: 40px;
+}
+.booking-form .bg-green{
+    height: 100px;
+    line-height: 100px;
+}
+.estateDetails .responsive-map{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.hero-section .hero-content.realEstate{
+    top: 37%;
+}
+.estateDetails .table-content table tr th{
+    font-size: 14px;
+}
+.Real-estate.cars-model .owl-img {
+    height: 200px;
+}
+.Real-estate.cars-model .item {
+    height: 360px;
+}
+.selected-car.hero-section .carousel-item{
+    height: 250px;
+}
+.selected-car .carousel-caption {
+    bottom: 75px;
+}
+}
+
+/*--------------------------------ibadpro--------------------------------------------*/
+@media(min-width:1024px) and (max-width:1300px){
+    .hero-section.hero-index .hero-content {
+        top: 190px;
+    }
+    .hero-section .hero-content p {
+        font-size: 19px;
+    }
+    
+    .hero-section .hero-content.realEstate{
+        width: 51%;
+        top: 23%;
+    }
+    .hero-section .hero-content.displyingCars{
+        top:23%;
+    }
+    .hero-section .hero-content h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .Services .single-col{
+        padding: 50px 44px;
+    }
+    .side-icon .icon{
+        left: 17px;
+    }
+    .thumbnail{
+        width: 148px;
+        height: 136px;
+    }
+    .primary{
+        width: 485px;
+        margin-bottom: -20px;
+    }
+    .car-search .searh-form{
+        width: 60%;
+        right: 20%;
+    }
+}
+
+/************************LARG SECREEN***************************************************/
+@media(min-width: 1400px) {
+}
+
+@media(min-width: 1600px) {}

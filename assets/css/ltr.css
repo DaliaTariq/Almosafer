@@ -1,0 +1,131 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+/*******************************/
+#button{
+    right: unset;
+    left: 0;
+}
+.side-icon .icon{
+    left: unset;
+    right: 40px;
+}
+/********************************/
+.hero-section .hero-content,
+.hero-section .hero-content p,
+.about-us .about-us-conten{
+    text-align: left;
+}
+
+.hero-section .hero-content{
+    width: 70%;
+}
+.about-us .about-us-conten .green-class{
+    float: right;
+}
+.contact .phone-num,
+.contact .contact-data{
+    text-align: left;
+    margin-left: 25px;
+}
+.contact .contact-data ul.account-links{
+    padding-left: 0 !important;
+}
+.footer .second{
+    text-align: right;
+}
+
+.carDetails .info .price .currancy{
+    border-left: unset;
+    border-right: 1px solid #fff;
+}
+.booking-form h5{
+    padding-right: 0;
+    padding-left: 10px;
+}
+.booking-form h5::after{
+    right: unset;
+    left: 10px;
+}
+.booking-form .form-group input, .booking-form .form-group select{
+    border-right: unset;
+    border-left: 3px solid #41958C;
+    text-align: left;
+}
+
+.carDetails .car-reviwe .singlw-col {
+    border-right: 1px solid #DCFFFB;
+    border-left: unset;
+}
+
+.carDetails .car-reviwe .singlw-col .text{
+    padding-right: 0px;
+    padding-left: 12px;
+}
+
+.carDetails .car-evaluation .evalution-stars{
+    margin-right: 0;
+    margin-left: 90px;
+}
+.hero-section .hero-content{
+    right: 20%;
+}
+.estateDetails .project-brief, .estateDetails .Project-Details, .estateDetails .over-view-content h5{
+    text-align: left;
+}
+.estateDetails .detailes {
+    padding-left: 7px !important;
+    padding-right:  0 !important;
+}
+.estateDetails .detailes li i{
+    transform: rotate(180deg);
+}
+.estateDetails .discount {
+    text-align: left;
+}
+/*******************************************************/
+@media (min-width: 300px) and (max-width: 766.5px){
+    .navbar-collapse{
+        padding-left: 25px;
+        text-align: left;
+    }
+    .contact .contact-data ul.account-links li a{
+        font-size: 11px;
+    }
+    .carDetails .car-reviwe .singlw-col .text{
+        padding-left: 0;
+    }
+    .carDetails .car-evaluation .evalution-stars {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media(min-width:768px) and (max-width:1024px){
+    .hero-section .hero-content {
+        width: 75%;
+        top: 125px;
+    }
+    .hero-section .hero-content p{
+        margin-bottom: 8px;
+    }
+    .hero-section .hero-content h1 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .contact .contact-data ul.account-links li a{
+        font-size: 10px;
+        letter-spacing: -1px;
+    }
+    .contact .col-form .contact-form .bg-gray{
+        font-size: 12px;
+    }
+    .hero-section .hero-content {
+        right: 15%;
+    }
+    
+}
