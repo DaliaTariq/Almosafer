@@ -162,10 +162,16 @@
     height: 45px;
 }
 .car-search .searh-form{
-    height: 510px;
+    height: 545px;
 }
 .car-search{
-    margin-bottom: 201px;
+    margin-bottom: 200px;
+}
+.car-search.real-search .searh-form{
+    height: 430px;
+}
+.car-search.real-search{
+    margin-bottom: 100px;
 }
 .our-cars .single-col{
     padding: 38px 20px;
@@ -191,7 +197,12 @@
     font-size: 12px;
     margin-bottom: 10px;
 }
-.Real-estate .item{
+/* .Real-estate .item{
+    height: 360px;
+  /*  margin-bottom: 25px;*/
+
+} */
+.Real-estate .Real-owl-carousel  .item{
     height: 360px;
   /*  margin-bottom: 25px;*/
 
@@ -507,9 +518,9 @@
 .Real-estate#Real-estate .item{
     height: 330px;
 }
-.Real-estate .item{
+/* .Real-estate .item{
     height: 280px;
-}
+} */
 .Real-estate .owl-img{
     height: 150px;
 }

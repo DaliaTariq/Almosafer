@@ -282,7 +282,8 @@ z-index: 10000;
 }
 .Real-estate .item{
     background: #F8F8F8;
-    height: 384px;
+    /* height: 384px; */
+    margin:auto 10px;
    margin-bottom: 30px;
 }
 /*.Real-estate.car .item{
@@ -294,9 +295,9 @@ z-index: 10000;
 .Real-estate .owl-theme .owl-dots .owl-dot.active span, .Real-estate .owl-theme .owl-dots .owl-dot:hover span{
     background: #41958C;
 }
-.Real-estate .owl-theme .owl-dots{
+/* .Real-estate .owl-theme .owl-dots{
     margin-top: 40px;
-}
+} */
 .Real-estate .owl-img{
     width: 100%;
     height: 232px;
@@ -365,7 +366,7 @@ z-index: 10000;
     text-align: center;
     /*margin-top: 20px;*/
     padding:8px 0;
-    margin-top: 15px;
+    margin-top: 24px;
     display: none;
 }
 .Real-estate .item:hover .order-now{
@@ -786,6 +787,9 @@ z-index: 10000;
 }
 .car-reservation .form-group label{
     font-size:12px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgb(65 149 140 / 25%);
 }
 /******************************************Cars Page end******************************************/
 /******************************************Cars details start*************************************/
@@ -1280,3 +1284,11 @@ z-index: 10000;
 
         }
     }
+
+
+.bg-transparent{
+    background: transparent;
+}
+.owl-carousel .item .card .card-footer{
+    height: 40px;
+}
