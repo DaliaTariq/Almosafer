@@ -282,9 +282,12 @@ z-index: 10000;
 }
 .Real-estate .item{
     background: #F8F8F8;
-    height: 370px;
-    margin-bottom: 30px;
+    height: 384px;
+   margin-bottom: 30px;
 }
+/*.Real-estate.car .item{
+    margin-bottom: 30px; 
+}*/
 .Real-estate .owl-theme .owl-nav{
     display: none;
 }
@@ -1054,6 +1057,19 @@ z-index: 10000;
 }
 .Real-estate.car.section.another-car{
     padding-top: 90px;
+}
+.Real-estate .more{
+    display: inline-block;
+    background: #41958C;
+    color: #fff;
+   
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
 }
 /*******************************Modal********************************/
 .thanksModal{
