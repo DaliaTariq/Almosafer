@@ -201,7 +201,7 @@
     height: 360px;
   /*  margin-bottom: 25px;*/
 
-} */
+
 .Real-estate .Real-owl-carousel  .item{
     height: 360px;
   /*  margin-bottom: 25px;*/
@@ -375,10 +375,10 @@
 .hero-section.hero-index .hero-content.dalia{
  top:60px;
 }
-.hero-section.hero-index .hero-content .order{
+/*.hero-section.hero-index .hero-content .order{
     width: 110px;
     height: 38px;
-}
+}*/
 .hero-section .hero-content.realEstate, .hero-section .hero-content.displyingCars{
     width: 100%;
     top: 20%;
@@ -413,8 +413,8 @@
     font-size: 11px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-    text-decoration: underline;
+    /*color: #fff;
+    text-decoration: underline;*/
 }
 .navbar .form-inline {
     position: relative;
@@ -432,7 +432,10 @@
 .Real-estate#projects .item {
     height: 335px;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+}
 
 /**********************************************ibad********************************/
 @media(min-width:768px) and (max-width:1024px){
