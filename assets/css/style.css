@@ -931,7 +931,9 @@ z-index: 10000;
     display: none;
 }
 .thumbnail:hover .car-overlay{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-gallery{
@@ -1074,7 +1076,7 @@ z-index: 10000;
     text-align: center;
     border-radius: 5px;
 }
-}
+
 /*******************************Modal********************************/
 .thanksModal{
     top: 65px; 

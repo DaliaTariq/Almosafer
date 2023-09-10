@@ -241,17 +241,19 @@
 .carDetails .info {
     margin-bottom: 20px;
 }
-.thumbnail{
+/* .thumbnail{
     width: 85px;
     height: 85px;
     margin-bottom: 0px;
     margin-left: 8px;
     display: inline-block;
-}
+} */
 .primary, .thumbnails {
-    display: flex;
+    /* display: flex;
     text-align: center;
-    width: 100%;
+    width: 100%; */
+    display: table-cell;
+
 }
 .thumbnail .car-overlay{
     width: 85%;
@@ -259,6 +261,7 @@
     right: 8%;
     top: 10%;
     line-height: 65px;
+   
 }
 .thumbnail .car-overlay svg{
     width: 20px;
@@ -315,7 +318,7 @@
 .carDetails .car-evaluation .car-explanition {
     margin-top: 25px;
     font-size: 13px;
-    text-align: center;
+    text-align: start;
     margin-bottom: 35px;
 }
 .thanksModal{
@@ -429,7 +432,7 @@
 .Real-estate#projects .item {
     height: 335px;
 }
-}
+
 
 /**********************************************ibad********************************/
 @media(min-width:768px) and (max-width:1024px){
@@ -771,8 +774,20 @@
 }
 
 /************************LARG SECREEN***************************************************/
-@media(min-width: 1400px) {
-    
+@media(max-width:992px) {
+
+    .thumbnail{
+        width: 85px;
+        height: 85px;
+        margin-bottom: 0px;
+        margin-left: 8px;
+        display: inline-block;
+    }
+    .primary, .thumbnails {
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media(min-width: 1600px) {}
